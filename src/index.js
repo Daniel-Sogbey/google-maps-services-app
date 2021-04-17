@@ -11,7 +11,7 @@ const key = process.env.GOOGLE_API_KEY;
 
 app.get("/", async (req, res, next) => {
 	try {
-		const neighborhood = "chelsea";
+		const neighborhood = "London";
 		const borough = "manhattan";
 		const city = "new+york+city";
 		const category = "burgers";
